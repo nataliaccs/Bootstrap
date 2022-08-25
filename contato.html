@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/estilo.css">
-    <title>E-book</title>
+    <title>Contatos</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
@@ -53,18 +53,70 @@
         </div>
     </nav>
     <!--/Menu-->
+    <hr>
 
-        
-    
-              
-
-
-
-
-
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">Preencha o formulário</h3>
+        </div>
+    </div>
 
 
+    <!--Formulário-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="container mb-5">
 
+                <form class="needs-validation" novalidate>
+                    <div class="form-group">
+                        <label for="validationCustom02">Endereço de email:</label>
+                        <input type="email" class="form-control" id="email"
+                            placeholder="nome@exemplo.com" required>
+                            <div class="valid-feedback">Tudo certo!</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Qual é o seu assunto de interesse:</label>
+                        <select class="form-control" id="assunto">
+                            <option>Educação financeira</option>
+                            <option>Investimentos</option>
+                            <option>Empreendedorismo/Negócios</option>
+                            <option>Consultoria</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Deixe um comentário:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <input type="comentario" class="form-control" id="validationCustom02" required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-outline-success">ENVIAR</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--/Formulário-->
+
+    <hr>
+
+
+
+
+    <!--Rodapé-->
+    <footer>
+        <div class="container text-center">
+            <p>
+                Copyright &copy 2022 Diego Leão |Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+    <!--/Rodapé-->
+
+    <!--Scripts servidor Bootstrap -JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -74,7 +126,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
