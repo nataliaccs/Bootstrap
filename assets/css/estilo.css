@@ -1,7 +1,16 @@
 .bg-nav {
-    background-color: rgb(200, 255, 129);
+    background-color: rgb(200, 255, 129) !important;
 }
 
 .justificado {
     text-align: justify;
 }
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+    
+
